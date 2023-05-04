@@ -1,0 +1,58 @@
+.body{
+    width:100%;
+    min-height: 100vh;
+    background-color: rgb(200, 228, 218);
+}
+header{
+    position: fixed;
+}
+.container5{
+    padding-top: 70px;
+    width:100%;
+    display: flex;
+}
+.row{
+    display: flex;
+}
+.sidebar{
+    background-color: rgba(11, 15, 15, 0.87);
+    width:550px;
+    height: 600px;
+    box-shadow:inset 4px 4px 8px 0 rgba(52, 110, 110, 0.7), inset -6px -6px 8px 0 rgb(57, 116, 131);
+    
+}
+.sidebar1 h3{
+    padding-left: 20px;
+    margin:10px 10px;
+    font-size: 20px;
+    color:rgb(220, 240, 109);
+}
+.sidebar1 label{
+    color:rgb(92, 158, 167);
+    font-size: 17px;
+    padding:5px;
+   
+}
+.sidebar1 input{
+    color:rgb(243, 209, 18);
+}
+.btn-1{
+    text-align: center;
+    background:none;
+    width:200px;
+    height:45px;
+    border-radius:20px;
+    font-size:30px;
+    font-weight:1000px;
+    outline:none;
+    margin-bottom: 10px;
+    margin:20px;
+    animation: slider 5s;
+}
+.btn-1:hover{
+    box-shadow:inset 4px 4px 8px 0 rgb(208, 241, 19), inset -6px -6px 8px 0 rgb(211, 248, 46);
+}
+.btn-1 a{
+    color:rgb(217, 255, 0);
+}
+

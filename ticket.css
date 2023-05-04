@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "joan",serif;
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color: rgb(200, 228, 218);
+}
+header{
+    background-color: rgb(12, 36, 36);
+    justify-content: space-between;
+    display: inline;
+    display: flex;
+    position: fixed;
+    width:100%;
+}
+.img1{
+    float: left;
+    width: 350px;
+    height: 70px;
+    margin-left: 150px;
+}
+.nav ul li{
+    float: left;
+    margin-right: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+.active{
+    color:rgba(85, 105, 11, 0.747);
+}
+.list :hover{
+    color: rgb(74, 118, 136);
+}
+.container1{
+    width:100%;
+    height:350px;
+    position: absolute;
+    top:70px;
+    background-image: url('avg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px white;
+    animation: slider 10s infinite linear;
+    border:radius;
+	border-radius:30px;
+}
+@keyframes slider{
+    0%{background-image: url('avg.jpg'); }
+    35%{background-image: url('love 2day.jpg'); }
+    70%{ background-image: url('wed.jpg');}
+}
+.container2{
+    padding-top: 435px;
+    display: flex;
+}
+.container2 img{
+    width: 380px;
+    height: 380px;
+    box-shadow: 1px 2px 10px rgb(60, 136, 146);
+    margin-left: 180px;
+    border:radius;
+	border-radius:30px;
+}
+.movie{
+    display: flex;
+}
+.thala{
+    animation: thala 5s ease-in-out;
+} 
+@keyframes thala{
+    30% {
+    opacity: 0;
+    transform:translateX(-50px)
+}
+}
+.vj{
+    animation: vj 5s ease-in-out;
+} 
+@keyframes vj{
+    30% {
+    opacity: 0;
+    transform:translateX(50px)
+}
+}
+.bottom{
+    width:100%;
+    display:flex;
+    background-color:grey;
+    align-items:left;
+    margin-bottom:20px;
+    color:blue;
+    box-shadow: 1px 2px 10px yellow;
+}
+.bottom h5{
+    display:flex;
+    margin-bottom:10px;
+    margin-left:75px;
+    text-align:left;
+    color:white;
+    font-size:20px;
+}
+.bottom img {
+    margin-left:45px;
+    box-sizing:1px;
+    display:flex;
+    padding:10px;
+    border:radius;
+    border-radius:50%;
+    width:50%;
+}
